@@ -1,0 +1,136 @@
+
+.img_fundo{
+    width: 1080px;   
+}
+
+strong{
+    font-size: 16px;
+    color: #F29472;
+}
+
+/*.image-thumb{
+    width: 500px;
+    margin: auto;
+    border-radius: 25px;
+}
+*/
+
+.button-top{
+    position: fixed;
+    top: 90%;
+    left: 10px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 2s;
+    
+}
+.button-top:hover{
+    filter: drop-shadow(0px 0px 5px #f27f3d8a);
+}
+
+.mapa{    
+    width: 100%;
+    height: 500px;
+    
+}
+.mapa .centralizar{
+    width: 600px;
+    height: 450px;
+    margin: auto;    
+}
+.mapa iframe{
+    border-radius: 15px;
+    box-shadow: 3px 5px 15px 5px blanchedalmond;
+}
+
+#centro{
+    margin: auto;
+    text-align: center;
+    
+}
+
+ /* Tudo que estiver aqui abaixo, é referente a tela de login */
+
+.bg{
+    background-color: #F2F2F2;
+    
+}
+
+.bg main{
+    width: 720px;
+    height: 720px;
+    background-color: #1B8C6C;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.bg div a{
+    text-decoration: none;
+}
+.bg .logoL{
+    color: #F2F2F2;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 5px;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.322);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+
+.bg .logoL span{
+    color: #ed563b;
+    
+}
+
+.bg section {
+    padding: 5px;
+}
+.bg form{
+    margin-top: 10% ;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg label{
+    color: #F2F2F2;
+}
+.bg input{
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    transition: 0.8s;
+}
+.bg input:hover{
+    width: 380px;
+}
+.bg button{
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+.bg button:hover{
+    background-color: #a7cce4;
+    color: #F2F2F2;
+}
+.bg section a{
+    color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+    font-size: 20px;
+    width: 25%;
+    
+}
